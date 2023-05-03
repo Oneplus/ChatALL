@@ -99,6 +99,7 @@ import BardBot from "./bots/BardBot";
 import OpenAIAPI35Bot from "./bots/OpenAIAPI35Bot";
 import OpenAIAPI4Bot from "./bots/OpenAIAPI4Bot";
 import MOSSBot from "./bots/MOSSBot";
+import AzureAPIBot from "@/bots/AzureAPIBot";
 
 export default {
     name: "App",
@@ -122,6 +123,7 @@ export default {
                 SparkBot.getInstance(),
                 MOSSBot.getInstance(),
                 BardBot.getInstance(),
+                AzureAPIBot.getInstance(),
             ],
             activeBots: {},
         };

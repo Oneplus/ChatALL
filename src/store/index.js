@@ -14,6 +14,9 @@ export default createStore({
     columns: 1,
     selectedBots: {},
     openaiApiKey: "",
+    azureApiKey: "",
+    azureApiEndpoint: "",
+    azureApiEngine: "",
     chatgpt: {
       refreshCycle: "",
     },
@@ -41,6 +44,15 @@ export default createStore({
     },
     setMoss(state, token) {
       state.moss.token = token;
+    },
+    setAzureApiKey(state, azureApiKey) {
+      state.azureApiKey = azureApiKey;
+    },
+    setAzureApiEndpoint(state, azureApiEndpoint) {
+      state.azureApiEndpoint = azureApiEndpoint;
+    },
+    setAzureApiEngine(state, azureApiEngine) {
+      state.azureApiEngine = azureApiEngine;
     },
   },
   actions: {

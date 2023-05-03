@@ -50,6 +50,8 @@
                 <MOSSBotSettings></MOSSBotSettings>
                 <v-divider></v-divider>
                 <BardBotSettings></BardBotSettings>
+                <v-divider></v-divider>
+                <AzureAPIBotSettings></AzureAPIBotSettings>
 
             </v-list>
         </v-card>
@@ -65,6 +67,7 @@ import BingChatBotSettings from "@/components/BotSettings/BingChatBotSettings.vu
 import SparkBotSettings from "./BotSettings/SparkBotSettings.vue";
 import BardBotSettings from "@/components/BotSettings/BardBotSettings.vue";
 import MOSSBotSettings from "@/components/BotSettings/MOSSBotSettings.vue";
+import AzureAPIBotSettings from "@/components/BotSettings/AzureAPIBotSettings.vue";
 
 export default {
     components: {
@@ -74,6 +77,7 @@ export default {
         SparkBotSettings,
         MOSSBotSettings,
         BardBotSettings,
+        AzureAPIBotSettings,
     },
     data() {
         return {

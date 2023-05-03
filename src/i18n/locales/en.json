@@ -59,5 +59,14 @@
     },
     "moss": {
         "name": "MOSS"
+    },
+    "azureApi": {
+        "name": "azure version of OpenAI API",
+        "apiKey": "API Key",
+        "apiKeyPrompt": "Your secret key will remain on your device and will not be shared with anyone else",
+        "apiEndpoint": "Endpoint",
+        "apiEndpointPrompt": "",
+        "apiEngine": "Engine",
+        "apiEnginePrompt": ""
     }
 }
